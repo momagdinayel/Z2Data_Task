@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-org_example_Runner_Runner">
+              <span class="suite-name border-passed">org.example.Runner.Runner</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-org_example_Runner_Runner">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-org_example_Runner_Runner">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-org_example_Runner_Runner">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-org_example_Runner_Runner">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-org_example_Runner_Runner">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-org_example_Runner_Runner">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-org_example_Runner_Runner">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-org_example_Runner_Runner" class="hide-methods passed suite-org_example_Runner_Runner"> (hide)</a> <!-- hide-methods passed suite-org_example_Runner_Runner -->
+                      <a href="#" panel-name="suite-org_example_Runner_Runner" class="show-methods passed suite-org_example_Runner_Runner"> (show)</a> <!-- show-methods passed suite-org_example_Runner_Runner -->
+                    </span>
+                    <div class="method-list-content passed suite-org_example_Runner_Runner">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;Dynamic xpath&quot;, &quot;Optional[Dynamic Xpath]&quot;)">runScenario("Dynamic xpath", "Optional[Dynamic Xpath]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;google selenium an press 2nd link&quot;, &quot;Optional[Search fo selenium]&quot;)">runScenario("google selenium an press 2nd link", "Optional[Search fo selenium]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;upload file&quot;, &quot;Optional[upload file]&quot;)">runScenario("upload file", "Optional[upload file]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;google selenium an press 3rd link&quot;, &quot;Optional[Search fo selenium]&quot;)">runScenario("google selenium an press 3rd link", "Optional[Search fo selenium]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;download file to certain directory&quot;, &quot;Optional[download file]&quot;)">runScenario("download file to certain directory", "Optional[download file]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-org_example_Runner_Runner" title="org.example.Runner.Runner" hash-for-method="runScenario(&quot;click the check box&quot;, &quot;Optional[check box]&quot;)">runScenario("click the check box", "Optional[check box]")</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-org_example_Runner_Runner -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-org_example_Runner_Runner" class="panel org_example_Runner_Runner">
+          <div class="suite-org_example_Runner_Runner-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.example.Runner.Runner</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;Dynamic xpath&quot;, &quot;Optional[Dynamic Xpath]&quot;)">
+                  </a> <!-- runScenario("Dynamic xpath", "Optional[Dynamic Xpath]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Dynamic xpath", "Optional[Dynamic Xpath]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;google selenium an press 2nd link&quot;, &quot;Optional[Search fo selenium]&quot;)">
+                  </a> <!-- runScenario("google selenium an press 2nd link", "Optional[Search fo selenium]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("google selenium an press 2nd link", "Optional[Search fo selenium]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;upload file&quot;, &quot;Optional[upload file]&quot;)">
+                  </a> <!-- runScenario("upload file", "Optional[upload file]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("upload file", "Optional[upload file]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;google selenium an press 3rd link&quot;, &quot;Optional[Search fo selenium]&quot;)">
+                  </a> <!-- runScenario("google selenium an press 3rd link", "Optional[Search fo selenium]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("google selenium an press 3rd link", "Optional[Search fo selenium]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;download file to certain directory&quot;, &quot;Optional[download file]&quot;)">
+                  </a> <!-- runScenario("download file to certain directory", "Optional[download file]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("download file to certain directory", "Optional[download file]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="runScenario(&quot;click the check box&quot;, &quot;Optional[check box]&quot;)">
+                  </a> <!-- runScenario("click the check box", "Optional[check box]") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("click the check box", "Optional[check box]")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-org_example_Runner_Runner-class-passed -->
+        </div> <!-- panel org_example_Runner_Runner -->
+        <div panel-name="test-xml-org_example_Runner_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;org.example.Runner.Runner&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Command line test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.example.Runner.Runner&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- org.example.Runner.Runner --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-org_example_Runner_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for org.example.Runner.Runner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-org_example_Runner_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for org.example.Runner.Runner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">runScenario</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-org_example_Runner_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for org.example.Runner.Runner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_org_example_Runner_Runner');
+function tableData_org_example_Runner_Runner() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'org.example.Runner.Runner')
+data.setCell(0, 3, 150674);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'runScenario')
+data.setCell(1, 2, 'org.example.Runner.Runner')
+data.setCell(1, 3, 141171);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'runScenario')
+data.setCell(2, 2, 'org.example.Runner.Runner')
+data.setCell(2, 3, 139429);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'runScenario')
+data.setCell(3, 2, 'org.example.Runner.Runner')
+data.setCell(3, 3, 71230);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'runScenario')
+data.setCell(4, 2, 'org.example.Runner.Runner')
+data.setCell(4, 3, 67788);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'runScenario')
+data.setCell(5, 2, 'org.example.Runner.Runner')
+data.setCell(5, 3, 51600);
+window.suiteTableData['org_example_Runner_Runner']= { tableData: data, tableDiv: 'times-div-org_example_Runner_Runner'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 minutes</span>
+              <div id="times-div-org_example_Runner_Runner">
+              </div> <!-- times-div-org_example_Runner_Runner -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-org_example_Runner_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for org.example.Runner.Runner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-org_example_Runner_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-org_example_Runner_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.example.Runner.Runner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@6650a6c)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">runScenario("google selenium an press 2nd link", "Optional[Search fo selenium]")</span>
+                <span class="method-start">4735 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("google selenium an press 3rd link", "Optional[Search fo selenium]")</span>
+                <span class="method-start">155457 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("click the check box", "Optional[check box]")</span>
+                <span class="method-start">296629 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("Dynamic xpath", "Optional[Dynamic Xpath]")</span>
+                <span class="method-start">348229 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("upload file", "Optional[upload file]")</span>
+                <span class="method-start">416018 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">runScenario("download file to certain directory", "Optional[download file]")</span>
+                <span class="method-start">487252 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">626685 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

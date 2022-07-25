@@ -1,0 +1,12 @@
+org\example\stepDefinition\D01_searchSeleniumStepDef.class
+org\example\pages\P02_checkboxPage.class
+org\example\pages\P04_uploadFilePage.class
+org\example\stepDefinition\D04_uploadFileStepDef.class
+org\example\stepDefinition\D03_dynamicXpathStepDef.class
+org\example\stepDefinition\D02_checkboxStepDef.class
+org\example\stepDefinition\Hooks.class
+org\example\pages\P01_searchSeleniumPage.class
+org\example\pages\P03_dynamicXpathPage.class
+org\example\stepDefinition\D05_downFileStepDef.class
+org\example\Runner\Runner.class
+org\example\pages\P05_downFilePage.class

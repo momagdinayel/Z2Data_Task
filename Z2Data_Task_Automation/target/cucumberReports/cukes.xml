@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="622.789">
+<testcase classname="Search fo selenium" name="google selenium an press 2nd link" time="149.992">
+<system-out><![CDATA[Given user navigate to "https://www.google.com".............................passed
+When user search for "Selenium Tutorial"....................................passed
+And user press "2" result...................................................passed
+Then user get directed to "https://www.javatpoint.com/selenium-tutorial"....passed
+]]></system-out>
+</testcase>
+<testcase classname="Search fo selenium" name="google selenium an press 3rd link" time="141.133">
+<system-out><![CDATA[Given user navigate to "https://www.google.com".............................passed
+When user search for "Selenium Tutorial"....................................passed
+And user press "3" result...................................................passed
+Then user get directed to "https://www.tutorialspoint.com/selenium/index.htm".passed
+]]></system-out>
+</testcase>
+<testcase classname="check box" name="click the check box" time="51.569">
+<system-out><![CDATA[Given user navigate to "http://the-internet.herokuapp.com/checkboxes".......passed
+And user check first checkbox...............................................passed
+Then two boxes are checked..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Dynamic Xpath" name="Dynamic xpath" time="67.761">
+<system-out><![CDATA[Given user navigate to "https://www.w3schools.com/html/html_tables.asp".....passed
+Then Country for the Company "Ernst Handel" is "Austria"....................passed
+]]></system-out>
+</testcase>
+<testcase classname="upload file" name="upload file" time="71.2">
+<system-out><![CDATA[Given user navigate to "http://the-internet.herokuapp.com/upload"...........passed
+And user upload small image.................................................passed
+Then image uploaded successfully............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="download file" name="download file to certain directory" time="139.379">
+<system-out><![CDATA[Given user navigate to "https://www.vertex42.com/ExcelTemplates/excel-gantt-chart.html".passed
+When user press on Press on Excel xlsx......................................passed
+And get download page and download to project folders.......................passed
+Then open and assert rows count after excluding header will be "36" start from row "9" till end row.passed
+]]></system-out>
+</testcase>
+</testsuite>
